@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+# Macro Begin: C:\Users\sesa237770\AppData\Roaming\FreeCAD\Macro\importParabola.FCMacro +++++++++++++++++++++++++++++++++++++++++++++++++
+import FreeCAD
+import Spreadsheet
+
+App.getDocument('parabola').removeObject('Spreadsheet001')
+App.getDocument('parabola').recompute()
+Gui.runCommand('Spreadsheet_Import',0)
+# Macro End: C:\Users\sesa237770\AppData\Roaming\FreeCAD\Macro\importParabola.FCMacro +++++++++++++++++++++++++++++++++++++++++++++++++
