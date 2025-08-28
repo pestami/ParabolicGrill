@@ -18,6 +18,8 @@ This dimension must be smaller than the Arc length of mirror.
 ### Y Dimension of Mirror
 
 This is a dummy parameter for the calculation. Same as the Arc Length.
+The value will itterate to the final Y dimension that corresponds to
+the arc length and X dimension of the mirror.
 
 ## Program Input Screen
 
