@@ -27,14 +27,10 @@ This is a dummy parameter for the calculation. Same as the Arc Length.
 
 <img src="png/Parabolic_Mirror_Report.png" alt="drawing" width="300"/>
 
-
-<img src="Parabola.jpg" alt="drawing" width="200"/>
+<img src="Parabola.jpg" alt="drawing" width="400"/>
 
 ## Final Prototype
 
 <img src="png/PM-sausage_jig.jpeg" alt="drawing" width="300"/>
-
-
-
 
 <img src="png/PM-sausage_jig_2.jpeg" alt="drawing" width="300"/>
