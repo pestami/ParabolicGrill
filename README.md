@@ -36,3 +36,16 @@ the arc length and X dimension of the mirror.
 <img src="png/PM-sausage_jig.jpeg" alt="drawing" width="300"/>
 
 <img src="png/PM-sausage_jig_2.jpeg" alt="drawing" width="300"/>
+
+
+## PHOTO
+
+<img src="png/PM-AtachementFixing.jpeg" alt="drawing" width="300"/>
+
+<img src="png/PM-SausageAttachement.jpeg" alt="drawing" width="300"/>
+
+<img src="png/PM-Backview.jpeg" alt="drawing" width="300"/>
+
+<img src="png/PM-High-Sun.jpeg" alt="drawing" width="300"/>
+
+<img src="png/PM-LowSun.jpeg" alt="drawing" width="300"/>
