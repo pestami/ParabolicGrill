@@ -37,6 +37,32 @@ def GetNamedCellValue(sCellName,workbook,sheet):
     print(f'Named Range {sCellName} has Cell Address scalar: {cellAddress} and value= {sValue}')
 
     return sValue
+def read_tab_delimited_file(file_name):
+    """
+    Reads a tab-delimited file into a dictionary.
+
+    Args:
+        file_name (str): The name of the file to read.
+
+    Returns:
+        dict: A dictionary where each key-value pair corresponds to a row in the file.
+    """
+    data = {}
+    try:
+        with open(file_name, 'r') as file:
+            for line in file:
+                line = line.strip()
+                if line:  # Ignore empty lines
+                    columns = line.split('\t')
+                    if len(columns) == 2:  # Assuming each row has two columns
+                        key, value = columns
+                        data[key] = value
+                    else:
+                        print(f"Skipping line: {line}. Expected two columns.")
+    except FileNotFoundError:
+        print(f"File '{file_name}' not found.")
+    return data
+
 #-------------------------------------------------------------------------------
 import sys
 sys.path.append('C:\\ProgrammeApps\\python3')
@@ -88,12 +114,24 @@ print('=====================================================')
 ##ws = wb.active  # work sheet
 #-------------------------------------------------------------------------------
 # @ jumbo mirror = 1000 x 500
+print('====Loading Constraints======')
+file_name = 'parabolaconstraints.txt'  # Replace with your file name
+data = read_tab_delimited_file(file_name)
+# {'Xmax': ' 400', 'Ymax': ' 300', 'Larc': ' 500'}
+
 
 print('====Loading Constraints======')
 
 Xmax=450  # mirror X size
 Ymax=500  # mirror Y size
 Lmax=500  # mirror Y size
+
+Xmax=float(data['Xmax'])  # mirror X size
+Ymax=float(data['Ymax'])  # mirror Y size
+LengthMirrorArc=float(data['Larc']) # mirror Y size
+
+
+
 
 ##Xmax=float(GetNamedCellValue('rngXmax',wb,ws))
 ##Ymax=float(GetNamedCellValue('rngYmax',wb,ws) )
@@ -103,12 +141,11 @@ print('====Hard Coded Input ==================')
 print('=====================================================')
 
 WBpath='C:\\Users\\sesa237770\\Documents\\Mathbox\\Python_Samples\\01-ParabolicMirror'
+WBpath=''
+
 WBpath=os.path.dirname(__file__)  ##
 
 
-Xmax=435  # mirror X size
-Ymax=500  # mirror Y size
-LengthMirrorArc=500  # mirror Y size
 
 print('\n Xmax==' + str(Xmax))
 print('\n Ymax==' + str(Ymax))
