@@ -1,0 +1,4 @@
+Xmax	 400
+Ymax	 300
+Larc	 500
+
