@@ -44,8 +44,8 @@ the arc length and X dimension of the mirror.
 
 <img src="png/PM-SausageAttachement.jpeg" alt="drawing" width="300"/>
 
-<img src="png/PM-Backview.jpeg" alt="drawing" width="300"/>
+<img src="png/PM_Dobson_03.jpeg" alt="drawing" width="300"/>
 
-<img src="png/PM-High-Sun.jpeg" alt="drawing" width="300"/>
+<img src="png/PM_Dobson_01.jpeg" alt="drawing" width="300"/>
 
-<img src="png/PM-LowSun.jpeg" alt="drawing" width="300"/>
+<img src="png/PPM_Dobson_05.jpeg" alt="drawing" width="300"/>
