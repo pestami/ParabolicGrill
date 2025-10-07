@@ -48,4 +48,4 @@ the arc length and X dimension of the mirror.
 
 <img src="png/PM_Dobson_01.jpeg" alt="drawing" width="300"/>
 
-<img src="png/PPM_Dobson_05.jpeg" alt="drawing" width="300"/>
+<img src="png/PM_Dobson_05.jpeg" alt="drawing" width="300"/>
